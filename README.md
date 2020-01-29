@@ -3,12 +3,12 @@ _QUANTA_ is a one-button MIDI controller that displays the beats and bars along 
 
 ![Quanta MIDI Controller](/images/quanta_on.jpg)
 
-This controller is a single large "super button" containing a ring of 16 LEDs which synchronize with the MIDI clock to count beats (in blue), and bars (in green). When starting playback at the first bar of the project, it can also track _phrases_ (groups of 16 bars, in red). The center Q softly pulses with a white backlight on each beat. The giant button can be used to control any MIDI parameter you like. 
+This controller is a single large "_super button_" containing a ring of 16 LEDs which synchronize with the MIDI clock to count beats in **blue**, and bars in **green**. When starting playback at the first bar of the project, it can also track _phrases:_ groups of 16 bars, in **red**. The center **Q** softly pulses with a white backlight on each beat. The giant button can be used to control any MIDI parameter you like. 
 
 ![Quanta MIDI Controller](/images/quanta_keyboard.jpg)
 
 ## About
-This project is one of my more experimental high-quality MIDI controllers that is designed to be low-cost. It can be difficult to explain exactly what it does, to musicians and non-musicians alike.  Think of it as a fancy pause button that shows you where you are within the song. This project is available in my 
+This project is one of my more experimental high-quality MIDI controllers that is designed to be low-cost. Think of it as a fancy pause button that shows you where you are within the song. This project is available in my 
 [Etsy Store: Circuits & Sawdust](https://www.etsy.com/listing/555989439).
 
 ## How it works
