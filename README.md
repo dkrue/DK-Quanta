@@ -15,3 +15,5 @@ This project is one of my more experimental high-quality MIDI controllers that i
 This is a [Teensy LC](https://www.pjrc.com/teensy/) based USB MIDI controller with an extra large arcade-style button that fits a [Neopixel](https://github.com/adafruit/Adafruit_NeoPixel) LED ring inside it. The controller sends and receives MIDI start/stop signals from the audio production program and displays the current position bars/beats/phrases on the button display.
 
 The interesting part of this project is how it handles MIDI real time clock information. Check out the code to see how the project handles start, continue, and stop commands from the project timeline.
+
+![Quanta with Project Timeline](/images/quanta_timeline.jpg)
