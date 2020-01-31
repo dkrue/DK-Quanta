@@ -17,3 +17,9 @@ This is a [Teensy LC](https://www.pjrc.com/teensy/) based USB MIDI controller wi
 The interesting part of this project is how it handles MIDI real time clock information. Check out the code to see how the project handles start, continue, and stop commands from the project timeline.
 
 ![Quanta with Project Timeline](/images/quanta_timeline.jpg)
+
+## Ingredients
+- [Teensy LC](https://www.pjrc.com/teensy/) microcontroller
+- [Large 60mm arcade button](https://www.adafruit.com/product/1192) with white LED
+- [16 Neopixel 5050 RGB LED ring](https://www.adafruit.com/product/1463)
+- PVC pipe fitting, black paint, clear lacquer
