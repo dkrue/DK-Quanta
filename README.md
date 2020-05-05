@@ -12,14 +12,17 @@ This project is one of my more experimental high-quality MIDI controllers that i
 [Etsy Store: Circuits & Sawdust](https://www.etsy.com/listing/774303547/quanta-one-button-midi-metronome).
 
 ## How it works
-This is a [Teensy LC](https://www.pjrc.com/teensy/) based USB MIDI controller with an extra large arcade-style button that fits a [Neopixel](https://github.com/adafruit/Adafruit_NeoPixel) LED ring inside it. The controller sends and receives MIDI start/stop signals from the audio production program and displays the current position bars/beats/phrases on the button display.
+This is a ~~[Teensy LC](https://www.pjrc.com/teensy/) based~~ Arduino Pro Micro USB MIDI controller with an extra large arcade-style button that fits a [Neopixel](https://github.com/adafruit/Adafruit_NeoPixel) LED ring inside it. The controller sends and receives MIDI start/stop signals from the audio production program and displays the current position bars/beats/phrases on the button display.
+
+*Version 1* used a Teensy MIDI implementation. *Version 2* uses the newer [MIDIUSB library](https://www.arduino.cc/en/Reference/MIDIUSB) for all Arduino boards with an ATmega32u4 chip.
 
 The interesting part of this project is how it handles MIDI real time clock information. Check out the code to see how the project handles start, continue, and stop commands from the project timeline.
 
 ![Quanta with Project Timeline](/images/quanta_timeline.jpg)
 
 ## Ingredients
-- [Teensy LC](https://www.pjrc.com/teensy/) microcontroller
+- ~~[Teensy LC](https://www.pjrc.com/teensy/) microcontroller~~
+- Arduino Pro Micro, from Sparkfun or any 5V generic clone
 - [Large 60mm arcade button](https://www.adafruit.com/product/1192) with white LED
 - [16 Neopixel 5050 RGB LED ring](https://www.adafruit.com/product/1463)
-- PVC pipe fitting, black paint, clear lacquer
+- 2" PVC female pipe coupler, black paint, clear lacquer
